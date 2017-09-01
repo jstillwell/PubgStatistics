@@ -1,0 +1,29 @@
+﻿.stats-wrapper {
+    width: 500px;
+}
+
+.main-wrapper {
+    background-color: transparent;
+    color: darkorange;
+    border-radius: 6px;
+    padding: 4px;
+	display:inline-flex;
+}
+
+.card-wrapper {
+    border: solid 1px darkgray;
+    border-radius: 4px;
+    margin-right: 4px;
+}
+
+    .card-wrapper > div {
+        padding-left: 4px;
+		font-weight: bold;
+    }
+
+h2 {
+    padding: 2px;
+    margin: 0;
+    background-color: darkgray;
+}
+
