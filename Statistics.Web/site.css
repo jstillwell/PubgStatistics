@@ -11,9 +11,13 @@
 }
 
 .card-wrapper {
-    border: solid 1px darkgray;
-    border-radius: 4px;
-    margin-right: 4px;
+  border: solid 1px darkgray;
+  border-radius: 4px;
+  margin-right: 4px;
+  background: #7d7e7d; /* Old browsers */
+  background: -moz-linear-gradient(top, #7d7e7d 0%, #0e0e0e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #7d7e7d 0%,#0e0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
     .card-wrapper > div {
@@ -22,8 +26,12 @@
     }
 
 h2 {
-    padding: 2px;
-    margin: 0;
-    background-color: darkgray;
+  padding: 2px;
+  margin: 0;
+  background-color: darkgray;
+  background: #45484d; /* Old browsers */
+  background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
