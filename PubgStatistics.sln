@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubgStatistics", "PubgStatistics\PubgStatistics.csproj", "{CA1B4287-6E60-4FFB-81D1-0C37A7B06583}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PubgStatistics.Api", "PubgStatistics\PubgStatistics.Api.csproj", "{CA1B4287-6E60-4FFB-81D1-0C37A7B06583}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Statistics.Web(1)", "Statistics.Web\", "{DD497795-5137-4814-883E-88D384238BD8}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Statistics.Web", "Statistics.Web\", "{DD497795-5137-4814-883E-88D384238BD8}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_53553"

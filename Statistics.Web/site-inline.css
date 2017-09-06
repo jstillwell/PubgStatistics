@@ -1,16 +1,17 @@
 ﻿.stats-wrapper {
-    width: 500px;
+  width: 100%;
 }
 
 .main-wrapper {
-    background-color: transparent;
-    color: darkorange;
-    border-radius: 6px;
-    padding: 4px;
-	display:inline-flex;
+  background-color: transparent;
+  color: darkorange;
+  border-radius: 6px;
+  padding: 4px;
+  display: inline-flex;
 }
 
 .card-wrapper {
+  display: flex;
   border: solid 1px darkgray;
   border-radius: 4px;
   margin-right: 4px;
@@ -20,17 +21,18 @@
   background: linear-gradient(to bottom, #7d7e7d 0%,#0e0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-    .stat {
-        padding-left: 4px;
-		font-weight: bold;
-    }
+.stat {
+  padding: 4px;
+  font-weight: bold;
+}
 
 h2 {
   padding: 2px;
+  padding-right: 12px;
   margin: 0;
+  border-radius: 0 40% 40% 0;
   background: #45484d; /* Old browsers */
   background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-

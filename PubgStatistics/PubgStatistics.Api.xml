@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PubgStatistics.Api</name>
+    </assembly>
+    <members>
+        <member name="T:PubgStatistics.Controllers.StatsController">
+            <summary>
+            Endpoint for PUBG Statistics
+            </summary>
+        </member>
+        <member name="M:PubgStatistics.Controllers.StatsController.GetStats(System.String)">
+            <summary>
+            Gets a small subset of the stats from pubgsats.com
+            </summary>
+            <param name="userId">The user ID that you want</param>
+            <returns></returns>
+        </member>
+        <member name="T:PubgStatistics.Models.MinimalStats">
+            <summary>
+            First item in each List is the k/d ratio and the second is the number of wins.
+            </summary>
+        </member>
+        <member name="M:PubgStatistics.Startup.#ctor(Microsoft.AspNetCore.Hosting.IHostingEnvironment)">
+            <summary>
+            Startup
+            </summary>
+            <param name="env"></param>
+        </member>
+        <member name="P:PubgStatistics.Startup.Configuration">
+            <summary>
+            Configuration
+            </summary>
+        </member>
+        <member name="M:PubgStatistics.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:PubgStatistics.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IHostingEnvironment,Microsoft.Extensions.Logging.ILoggerFactory)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="loggerFactory"></param>
+        </member>
+    </members>
+</doc>
