@@ -15,9 +15,12 @@
     <None Remove="Properties\PublishProfiles\1378751a-0ee0-4-231-b9ee - Web Deploy.pubxml" />
     <None Remove="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Remove="Properties\PublishProfiles\Default Settings.pubxml" />
+    <None Remove="Properties\PublishProfiles\pubgstatistics - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\pubgstatistics - Web Deploy.pubxml" />
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>

@@ -22,6 +22,7 @@
         });
     }
     function updateUI(data) {
+        //kd
         var solokd = data.Solo[0];
         $('.solo-kd').html(solokd);
         var duoskd = data.Duos[0];
@@ -36,5 +37,13 @@
         $('.duos-wins').html(duowins);
         var squadwins = data.Squads[1];
         $('.squads-wins').html(squadwins);
+
+        //top 10
+        var soloTop10 = data.Solo[2];
+        $('.solo-top10').html(soloTop10);
+        var duoTop10 = data.Duos[2];
+        $('.duos-top10').html(duoTop10);
+        var squadTop10 = data.Squads[2];
+        $('.squads-top10').html(squadTop10);
     }
 })();

@@ -39,15 +39,18 @@ namespace PubgStatistics.Controllers {
                 var minimalStats = new Models.MinimalStats() {
                     Solo = new List<string> {
                     solo.Stats.Find(x => x.Stat == Stats.KDR).Value,
-                    solo.Stats.Find(x => x.Stat == Stats.Wins).Value
+                    solo.Stats.Find(x => x.Stat == Stats.Wins).Value,
+                    solo.Stats.Find(x => x.Stat == Stats.Top10).Value
                     },
                     Duos = new List<string> {
                         duos.Stats.Find(x => x.Stat == Stats.KDR).Value,
-                        duos.Stats.Find(x => x.Stat == Stats.Wins).Value
+                        duos.Stats.Find(x => x.Stat == Stats.Wins).Value,
+                        duos.Stats.Find(x => x.Stat == Stats.Top10).Value
                     },
                     Squads = new List<string> {
                         squads.Stats.Find(x => x.Stat == Stats.KDR).Value,
-                        squads.Stats.Find(x => x.Stat == Stats.Wins).Value
+                        squads.Stats.Find(x => x.Stat == Stats.Wins).Value,
+                        squads.Stats.Find(x => x.Stat == Stats.Top10).Value
                     }
                 };
 
