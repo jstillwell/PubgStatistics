@@ -32,9 +32,9 @@ namespace PubgStatistics.Controllers {
                 var na = stats.Stats.Find(s => s.Region == PUBGSharp.Data.Region.NA);
                 var currentSeason = Services.Season.CurrentSeason();
 
-                var solo = stats.Stats.Find(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Solo && s.Season == currentSeason);
-                var duos = stats.Stats.Find(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Duo && s.Season == currentSeason);
-                var squads = stats.Stats.Find(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Squad && s.Season == currentSeason);
+                var solo = stats.Stats.FindLast(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Solo && s.Season == currentSeason);
+                var duos = stats.Stats.FindLast(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Duo && s.Season == currentSeason);
+                var squads = stats.Stats.FindLast(s => s.Region == PUBGSharp.Data.Region.NA && s.Mode == PUBGSharp.Data.Mode.Squad && s.Season == currentSeason);
 
                 var minimalStats = new Models.MinimalStats() {
                     Solo = new List<string> {
